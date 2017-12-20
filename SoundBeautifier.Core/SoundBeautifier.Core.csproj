@@ -63,6 +63,7 @@
     <Compile Include="Entities\PluginType.cs" />
     <Compile Include="Entities\Subscripe.cs" />
     <Compile Include="Entities\TrackTask.cs" />
+    <Compile Include="Entities\TrackTaskStatus.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="SoundBeatifierDbContext.cs" />
     <Compile Include="Entities\Track.cs" />

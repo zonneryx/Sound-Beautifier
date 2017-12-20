@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -20,10 +21,8 @@ namespace SoundBeautifier.Core
         public List<PluginPreset> PluginsPresets { get; set; }
 
         public TrackTaskStatus TrackTaskStatus { get; set; }
-    }
 
-    public enum TrackTaskStatus {
-        Unknown, Canceled, Planned, Started, ErrorDuringExecution, Completed
+        public DateTime CreatingTime { get; set; }
     }
 
 }
